@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "release": "np"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "name": "@carv/stdlib",
+  "author": "Sascha Tandel",
+  "homepage": "https://github.com/carvjs/stdlib#readme",
+  "bugs": {
+    "url": "https://github.com/carvjs/stdlib/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carvjs/stdlib.git"
+  },
+  "module": "dist/stdlib.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/stdlib.cjs.production.min.js",
+      "limit": "1 KB"
+    },
+    {
+      "path": "dist/stdlib.esm.js",
+      "limit": "1 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^4.6.0",
+    "husky": "^4.3.0",
+    "np": "^6.5.0",
+    "size-limit": "^4.6.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.3"
+  },
+  "resolutions": {
+    "**/@typescript-eslint/eslint-plugin": "^4.1.1",
+    "**/@typescript-eslint/parser": "^4.1.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@carv/is": "^1.0.1"
+  }
+}
