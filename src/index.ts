@@ -66,16 +66,19 @@ export function castArray<T>(
   return (Array.isArray(value) ? value : [value]) as any
 }
 
-export function add<T>(set: { add(value: T): any }, value: T): T {
+export function add<K, T extends K = K>(
+  set: { add(value: K): any },
+  value: T,
+): T {
   set.add(value)
   return value
 }
 
-export function set<K, V>(
+export function set<K, V, T extends V = V>(
   map: { set(key: K, value: V): any },
   key: K,
-  value: V,
-): V {
+  value: T,
+): T {
   map.set(key, value)
   return value
 }
