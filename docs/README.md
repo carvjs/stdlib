@@ -1,6 +1,6 @@
 > Globals
 
-# @carv/stdlib - v1.0.2
+# @carv/stdlib - v1.1.0
 
 ## Index
 
