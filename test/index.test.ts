@@ -7,7 +7,7 @@ import {
   fail,
   defaultTo,
   clamp,
-  round,
+  roundTo,
   first,
   last,
   castArray,
@@ -76,13 +76,13 @@ test('clamp', () => {
   expect(clamp(6, 5, NaN)).toBe(NaN)
 })
 
-test('round', () => {
-  expect(round(1.234567)).toBe(1)
-  expect(round(1.5)).toBe(2)
+test('roundTo', () => {
+  expect(roundTo(1.234567)).toBe(1)
+  expect(roundTo(1.5)).toBe(2)
 
-  expect(round(Math.PI, 2)).toBe(3.14)
-  expect(round(Math.PI, 3)).toBe(3.142)
-  expect(round(Math.PI, 5)).toBe(3.14159)
+  expect(roundTo(Math.PI, 2)).toBe(3.14)
+  expect(roundTo(Math.PI, 3)).toBe(3.142)
+  expect(roundTo(Math.PI, 5)).toBe(3.14159)
 })
 
 test('first', () => {

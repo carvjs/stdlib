@@ -57,7 +57,7 @@ isString(123) // => false
 * [never](https://github.com/carvjs/stdlib/blob/main/docs/README.md#never)
 * [noop](https://github.com/carvjs/stdlib/blob/main/docs/README.md#noop)
 * [push](https://github.com/carvjs/stdlib/blob/main/docs/README.md#push)
-* [round](https://github.com/carvjs/stdlib/blob/main/docs/README.md#round)
+* [roundTo](https://github.com/carvjs/stdlib/blob/main/docs/README.md#roundto)
 * [set](https://github.com/carvjs/stdlib/blob/main/docs/README.md#set)
 
 ## Support

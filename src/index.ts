@@ -64,7 +64,7 @@ export function defaultTo<T, TDefault = T>(
  * @param precision to round to should be between `0` and `11`
  * @returns the rounded number.
  */
-export function round(number: number, precision?: number): number {
+export function roundTo(number: number, precision?: number): number {
   if (precision) {
     const multiplicator = 10 ** precision
 
