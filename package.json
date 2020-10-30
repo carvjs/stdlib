@@ -13,11 +13,14 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
+    "test:coverage": "tsdx test --coverage",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "release": "np"
+    "version": "typedoc && git add docs",
+    "prepare": "tsdx build",
+    "release": "np",
+    "typedoc": "typedoc"
   },
   "husky": {
     "hooks": {
@@ -31,6 +34,7 @@
     "trailingComma": "all"
   },
   "name": "@carv/stdlib",
+  "description": "Common utility functions",
   "author": "Sascha Tandel",
   "homepage": "https://github.com/carvjs/stdlib#readme",
   "bugs": {
@@ -58,6 +62,8 @@
     "size-limit": "^4.6.0",
     "tsdx": "^0.14.1",
     "tslib": "^2.0.3",
+    "typedoc": "0.17.0-3",
+    "typedoc-plugin-markdown": "^3.0.11",
     "typescript": "^4.0.3"
   },
   "resolutions": {
