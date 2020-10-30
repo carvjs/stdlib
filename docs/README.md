@@ -1,6 +1,6 @@
 > Globals
 
-# @carv/stdlib - v1.1.0
+# @carv/stdlib - v1.1.1
 
 ## Index
 
@@ -19,7 +19,7 @@
 * [never](README.md#never)
 * [noop](README.md#noop)
 * [push](README.md#push)
-* [round](README.md#round)
+* [roundTo](README.md#roundto)
 * [set](README.md#set)
 
 ## Functions
@@ -321,9 +321,9 @@ Name | Type | Description |
 
 ___
 
-### round
+### roundTo
 
-▸ **round**(`number`: number, `precision?`: undefined \| number): number
+▸ **roundTo**(`number`: number, `precision?`: undefined \| number): number
 
 *Defined in [index.ts:67](https://github.com/carvjs/stdlib/blob/main/src/index.ts#L67)*
 
