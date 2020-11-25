@@ -77,12 +77,12 @@ test('clamp', () => {
 })
 
 test('roundTo', () => {
-  expect(roundTo(1.234567)).toBe(1)
-  expect(roundTo(1.5)).toBe(2)
-
+  expect(roundTo(Math.PI, 0)).toBe(3)
+  expect(roundTo(Math.PI, 1)).toBe(3.1)
   expect(roundTo(Math.PI, 2)).toBe(3.14)
   expect(roundTo(Math.PI, 3)).toBe(3.142)
   expect(roundTo(Math.PI, 5)).toBe(3.14159)
+  expect(roundTo(Math.PI)).toBe(3.1415927)
 })
 
 test('first', () => {

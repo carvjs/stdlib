@@ -2,10 +2,10 @@
 
 Common utility functions.
 
-[![License](https://flat.badgen.net/github/license/carvjs/is)](https://github.com/carvjs/stdlib/blob/main/LICENSE)
+[![License](https://flat.badgen.net/github/license/carvjs/stdlib)](https://github.com/carvjs/stdlib/blob/main/LICENSE)
 [![Latest Release](https://flat.badgen.net/npm/v/@carv/stdlib?label=release)](https://www.npmjs.com/package/@carv/stdlib)
 [![Bundle Size](https://flat.badgen.net/bundlephobia/minzip/@carv/stdlib?icon=packagephobia&label&color=blue)](https://bundlephobia.com/result?p=@carv/stdlib)
-[![Typescript](https://flat.badgen.net/badge/icon/included?icon=typescript&label)](https://unpkg.com/browse/@carv/stdlib/dist/index.d.
+[![Typescript](https://flat.badgen.net/badge/icon/included?icon=typescript&label)](https://unpkg.com/browse/@carv/stdlib/dist/index.d.ts)
 [![Sponsor](https://flat.badgen.net/badge/sponsored%20by/Kenoxa/2980b9)](https://www.kenoxa.com)
 
 ## Installation
@@ -62,7 +62,7 @@ isString(123) // => false
 
 ## Support
 
-This project is free and open-source, so if you think this project can help you or anyone else, you may [star it on GitHub](https://github.com/carvjs/is). Feel free to [open an issue](https://github.com/carvjs/stdlib/issues) if you have any idea, question, or you've found a bug.
+This project is free and open-source, so if you think this project can help you or anyone else, you may [star it on GitHub](https://github.com/carvjs/stdlib). Feel free to [open an issue](https://github.com/carvjs/stdlib/issues) if you have any idea, question, or you've found a bug.
 
 ## Contribute
 
