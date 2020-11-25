@@ -1,6 +1,6 @@
 > Globals
 
-# @carv/stdlib - v1.1.1
+# @carv/stdlib - v1.1.2
 
 ## Index
 
@@ -323,7 +323,7 @@ ___
 
 ### roundTo
 
-▸ **roundTo**(`number`: number, `precision?`: undefined \| number): number
+▸ **roundTo**(`number`: number, `precision?`: number): number
 
 *Defined in [index.ts:67](https://github.com/carvjs/stdlib/blob/main/src/index.ts#L67)*
 
@@ -331,10 +331,10 @@ Computes `number` rounded to `precision`.
 
 #### Parameters:
 
-Name | Type | Description |
------- | ------ | ------ |
-`number` | number | to round |
-`precision?` | undefined \| number | to round to should be between `0` and `11` |
+Name | Type | Default value | Description |
+------ | ------ | ------ | ------ |
+`number` | number | - | to round |
+`precision` | number | 7 | to round to should be between `0` and `11` |
 
 **Returns:** number
 
